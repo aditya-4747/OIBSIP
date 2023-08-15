@@ -1,0 +1,244 @@
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #24303a, #0a0230);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    height: 100px;
+}
+  
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.center-x {
+    display: flex;
+    justify-content: center;
+}
+
+.center-y {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar-name {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: -15px;
+    margin-left: -80px;
+}
+
+li.nav-link {
+    padding-top: 24px;
+}
+
+.back-img {
+    height: 60vh;
+    width: 98.9vw;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+}
+
+.index {
+    height: 50vh;
+    width: 70vw;
+    text-align: left;
+    justify-content: center;
+}
+
+.head-name {
+    color: rgb(75, 21, 123);
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 70px;
+}
+
+.sub-head{
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.about-section {
+    margin-top: 75px;
+    padding: 100px;
+    background-color: rgba(78, 77, 77, 0.275);
+}
+
+.inner-box:hover {
+    box-shadow: 0 0 50px gray;
+}
+
+.inner-box {
+    width: 75vw;
+    padding: 4em 7em;
+    border: 10px solid rgba(33, 1, 33, 0.1);
+    border-radius: 20px;
+    box-shadow: 0 0 20px;
+}
+
+.about-me {
+    float: left;
+    width: 30vw;
+    text-align: justify;
+    margin-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.about-heading {
+    padding-left: 20px;
+}
+
+.my-img {
+    float: right;
+    height: 50vh;
+    border: 5px solid gray;
+    border-radius: 10%;
+    margin: 40px;
+    margin-right: 0;
+}
+
+.skill-heading,.project-heading {
+    width: 98.9vw;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+#skills {
+    height: 80vh;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(8,12.5vh);
+    grid-template-rows: 100px;
+    gap: 80px;
+    opacity: 0.7;
+}
+
+.skill-img {
+    height: 80px;
+    margin-top: 50px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    grid-template-rows: 400px;
+    margin: 50px 0 150px 0;
+}
+
+.card-title {
+    font-family: 'Vina Sans', cursive;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.card-text {
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.project-card {
+    box-shadow: 0 0 10px black;
+    margin: 20px 50px;
+    padding: 50px;
+    border-radius: 20px;
+
+}
+
+.project-card:hover {
+    box-shadow: 10px 0 20px;
+}
+
+hr { margin: 0; }
+
+.background-img {
+    position: absolute;
+    width: 98.9vw;
+    height: 30vh;
+    margin-top: 0;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.contact-heading {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 900;
+}
+
+.contact-handles {
+    margin-top: 20px;
+}
+
+.logo {
+    height: 30px;
+    margin: 0 20px;
+    opacity: 0.5;
+}
+
+.logo:hover {
+    opacity: 1;
+}
+
+.text {
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.email {
+    text-decoration: none;
+}
+
+a.email:hover {
+    color: black;
+}
